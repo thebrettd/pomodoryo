@@ -33,6 +33,13 @@
             <version>1.8</version>
         </dependency>
 
+        <!-- Apache HTTPClient -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.3.4</version>
+        </dependency>
+
         <!-- jUnit -->
         <dependency>
             <groupId>junit</groupId>
