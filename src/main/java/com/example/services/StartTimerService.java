@@ -8,9 +8,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
 
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
+import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -20,9 +18,8 @@ import java.util.List;
 @Path("/startTimer")
 public class StartTimerService {
 
-    @POST
-    @Path("{username}")
-    public Response post(@PathParam("username") String username) {
+    @GET
+    public Response get(@QueryParam("username") String username) {
         final HttpClient httpclient = HttpClients.createDefault();
         final HttpPost httppost = new HttpPost("http://api.justyo.co/yo/");
 
