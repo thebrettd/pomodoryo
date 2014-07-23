@@ -54,7 +54,9 @@ public class StartTimerService {
 
         //Execute and get the response.
         try {
+            System.out.println("Sending yo");
             HttpResponse response = httpclient.execute(httppost);
+            System.out.println(response.toString());
         } catch (IOException e) {
             e.printStackTrace();
         }
