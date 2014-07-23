@@ -25,7 +25,7 @@ public class StartTimerService {
 
         // Request parameters and other properties.
         List<NameValuePair> params = new ArrayList<NameValuePair>(2);
-        params.add(new BasicNameValuePair("api_token", "095be630-8acb-2419-c32c-31bc32a79025"));
+        params.add(new BasicNameValuePair("api_token", System.getenv("YO_API_KEY")));
         params.add(new BasicNameValuePair("username", username));
 
         try {
@@ -36,8 +36,8 @@ public class StartTimerService {
 
         Thread yoer = new Thread(new Runnable() {
             public void run() {
-                sendYo(httpclient, httppost, 25);
-                sendYo(httpclient, httppost, 5);
+                sendYo(httpclient, httppost, 1);
+                sendYo(httpclient, httppost, 2);
             }
         });
         yoer.start();

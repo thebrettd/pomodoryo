@@ -7,8 +7,6 @@ import javax.ws.rs.core.Response;
 @Path("/ping")
 public class PingService {
 
-
-
     @GET
     public Response get() {
 
