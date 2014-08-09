@@ -36,8 +36,8 @@ public class StartTimerService {
 
         Thread yoer = new Thread(new Runnable() {
             public void run() {
-                sendYo(httpclient, httppost, 1);
-                sendYo(httpclient, httppost, 2);
+                sendYo(httpclient, httppost, 25);
+                sendYo(httpclient, httppost, 5);
             }
         });
         yoer.start();
