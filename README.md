@@ -1,6 +1,6 @@
 # Pomodoryo
 
-[http://pomodorotechnique.com/](Pomodoro) Timer built on the [Yo](http://www.justyo.com) API
+[Pomodoro](http://pomodorotechnique.com/) Timer built on the [Yo](http://www.justyo.co) API
 
 Send a Yo to POMODORYO and it will Yo back in 25 minutes and then again in another 5 minutes.
 
