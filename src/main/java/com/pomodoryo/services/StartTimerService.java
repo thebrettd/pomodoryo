@@ -1,4 +1,4 @@
-package com.example.services;
+package com.pomodoryo.services;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;

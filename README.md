@@ -1,7 +1,11 @@
-# JAX-RS Template Application
+# Pomodoryo
 
-This is a template for a lightweight RESTful API using JAX-RS. The sample code is a call for getting the current time.
-    
+[http://pomodorotechnique.com/](Pomodoro) Timer built on the [Yo](http://www.justyo.com) API
+
+Send a Yo to POMODORYO and it will Yo back in 25 minutes and then again in another 5 minutes.
+
+Running on [http://heroku.com/](Heroku)
+
 ## Running the application locally
 
 First build with:
@@ -10,5 +14,5 @@ First build with:
 
 Then run it with:
 
-    $ java -cp target/classes:target/dependency/* com.example.Main
+    $ java -cp target/classes:target/dependency/* com.pomodoryo.Main
 
